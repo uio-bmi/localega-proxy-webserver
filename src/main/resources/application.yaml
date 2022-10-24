@@ -1,0 +1,13 @@
+server.ssl:
+  enabled: ${SSL_ENABLED:true}
+  key-store-type: PKCS12
+  key-store: file:${SERVER_KEYSTORE_PATH:/Users/joshuaba/Projects/NFEGA/tsd-proxy-webservice/src/main/resources/server.cert}
+  key-store-password: ${SERVER_CERT_PASSWORD:server_cert_passw0rd}
+
+spring.main:
+  allow-circular-references: true
+
+elixir:
+  client:
+    id: ${CLIENT_ID:880a0733-b872-truncated_kp}
+    secret: ${CLIENT_SECRET:AM096LmlwxiMHcv-truncated-kp}
