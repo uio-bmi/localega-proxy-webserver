@@ -1,7 +1,7 @@
 server.ssl:
   enabled: ${SSL_ENABLED:true}
   key-store-type: PKCS12
-  key-store: file:${SERVER_KEYSTORE_PATH:/Users/joshuaba/Projects/NFEGA/tsd-proxy-webservice/src/main/resources/server.cert}
+  key-store: file:${SERVER_KEYSTORE_PATH:/etc/ega/ssl/server.cert}
   key-store-password: ${SERVER_CERT_PASSWORD:server_cert_passw0rd}
 
 spring.main:
