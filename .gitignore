@@ -39,3 +39,5 @@ src/main/resources/static/
 
 ### SSL ###
 src/main/resources/server.cert
+
+settings.xml
